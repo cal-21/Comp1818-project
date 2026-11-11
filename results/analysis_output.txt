@@ -1,0 +1,27 @@
+MAE difference vs baseline (negative = model better), 95% CI, validation:
+linear|global      -0.0047  [-0.0113, +0.0014]
+linear|positional  -0.0039  [-0.0105, +0.0022]
+rf|global          -0.0050  [-0.0110, +0.0010]
+rf|positional      -0.0048  [-0.0115, +0.0019]
+xgb|global         -0.0049  [-0.0120, +0.0024]
+xgb|positional     -0.0032  [-0.0101, +0.0040]
+
+Positional minus global (negative = positional better):
+linear   +0.0008  [-0.0016, +0.0030]
+rf       +0.0002  [-0.0026, +0.0030]
+xgb      +0.0017  [-0.0017, +0.0052]
+
+Permutation importance (RF global, validation; bigger = more important):
+npxG_xA_p90            +0.0410
+npxG_p90               +0.0042
+xGChain_p90            +0.0030
+xG_p90                 +0.0013
+shots_p90              +0.0012
+goals_p90              +0.0008
+xA_p90                 +0.0004
+key_passes_p90         +0.0002
+is_AM                  +0.0002
+time                   +0.0001
+seasons_seen_before    +0.0001
+xGBuildup_p90          -0.0000
+assists_p90            -0.0001
