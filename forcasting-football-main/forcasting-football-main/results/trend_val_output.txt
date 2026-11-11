@@ -1,8 +1,0 @@
-Trend subset (val): train 1239, eval 198 pairs
-baseline MAE on this subset: 0.1222
-linear  MAE without 0.1168 | with 0.1096 | diff -0.0072 [-0.0120, -0.0022]
-        with-trend vs baseline: -0.0126 [-0.0220, -0.0037]
-rf      MAE without 0.1183 | with 0.1144 | diff -0.0039 [-0.0088, +0.0012]
-        with-trend vs baseline: -0.0078 [-0.0168, +0.0012]
-xgb     MAE without 0.1196 | with 0.1172 | diff -0.0024 [-0.0095, +0.0049]
-        with-trend vs baseline: -0.0051 [-0.0153, +0.0055]
